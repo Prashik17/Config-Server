@@ -1,0 +1,6 @@
+# microservice-one.yml (Place this in your GitHub repository)
+server:
+  port: 8081
+spring:
+  application:
+    name: microservice-one
