@@ -1,0 +1,13 @@
+server:
+  port: 8888  # Config Server default port
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Prashik17/Config-Server.git  # Replace with your actual GitHub repo
+          clone-on-start: true
+          default-label: main  # Your branch name
